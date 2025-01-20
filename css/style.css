@@ -577,7 +577,7 @@ input:not([type='checkbox']):not([type="range"]).header__search-input{
     opacity: 1;
     pointer-events: all;
 }
-.header__catalog-content--block{
+.header__catalog-content--block {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -586,6 +586,8 @@ input:not([type='checkbox']):not([type="range"]).header__search-input{
     background: #FFF;
     width: 275px;
     box-shadow: 0px 4px 10px 0px rgba(115, 113, 113, 0.15);
+    overflow: auto;
+    max-height: calc(100vh - 150px);
 }
 .header__catalog-box{
     display: flex;
